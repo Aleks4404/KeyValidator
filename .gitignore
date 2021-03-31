@@ -5,6 +5,7 @@ HELP.md
 build/
 target/
 .idea
+KeyValidator.class
 
 ### STS ###
 .apt_generated
