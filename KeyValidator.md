@@ -1,26 +1,37 @@
 # Отчёт о тестировании KeyValidator
 
 ## Краткое описание
+* 31.03.2021 - 31.03.2021. Выполнили установку приложения по инструкци установки OpenJDK11 на ОС Windows 10 Home 64 bit
+* 31.03.2021 - 31.03.2021. Выполнили запуск приложения и проверили совместимо Windows 10 Home 64 bit с Java 11
+* 31.03.2021 - 31.03.2021. Выполнили провеку приложения на корректность работы согласно руководству использования
 
-30.03.2021 - 30.03.2021. Было проведено функциональное тестирование (валидация лицензионных ключей) приложения KeyValidator
 
-На тестирование затрачено: 2 часа
+На тестирование затрачено: 4 часа
 
 В результате тестирования выявлены следующие дефекты:
 
-https://github.com/Aleks4404/KeyValidator/issues/1
-https://github.com/Aleks4404/KeyValidator/issues/2
-https://github.com/Aleks4404/KeyValidator/issues/3
+* [Некорректный номер валидного ключа](https://github.com/Aleks4404/KeyValidator/issues/1)
+* [При проверке валидного ключа появляется сообщение FAIL](https://github.com/Aleks4404/KeyValidator/issues/2)
+* [При проверке не валидного ключа появляется сообщение OK](https://github.com/Aleks4404/KeyValidator/issues/3)
 
 Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
 
-1.Домашнее задание к занятию «1.1. Введение в Java: JDK, JRE, JVM, IntelliJ IDEA» https://github.com/netology-code/javaqa-homeworks/tree/master/intro
-2.Отчёт о тестировании <Название приложения> https://github.com/netology-code/javaqa-homeworks/blob/master/intro/report.md
+* [Домашнее задание к занятию «1.1. Введение в Java: JDK, JRE, JVM, IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/tree/master/intro)
+* [Ссылка для скачивания приложения OpenJDK11](https://adoptopenjdk.net/)
+* [Отчёт о тестировании KeyValidator](https://github.com/Aleks4404/KeyValidator.git)
 
 
-В качестве тестовых данных использовались данные из Руководства использования KeyValidator https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md
+В качестве тестовых данных использовались данные:
+* [Инструкция по установке OpenJDK 11](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md)
+   
+    Ввести следующие команды в терминале:
+    java -version - Ожидаемый результат - openjdk version "11.0.10" 2021-01-19
+                                          OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.10+9)
+                                          OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.10+9, mixed mode)
+
+* [Руководство использования KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
 
 Валидные ключи:
 
